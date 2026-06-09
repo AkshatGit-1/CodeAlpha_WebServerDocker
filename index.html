@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Docker Web Server</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .docker-logo {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            background: #0db7ed;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+        .info {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 5px solid #0db7ed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="docker-logo">🐳</div>
+        <h1>Welcome to My Docker Web Server!</h1>
+        <p>This web server is running inside a Docker Container</p>
+        <p>Built with NGINX & Docker</p>
+        <div class="badge">✅ Docker Container Running!</div>
+        <div class="info">
+            <p><strong>Name:</strong> Akshat Vishnoi</p>
+            <p><strong>Project:</strong> CodeAlpha DevOps Internship</p>
+            <p><strong>Task 4:</strong> Web Server using Docker</p>
+            <p><strong>Technology:</strong> Docker + NGINX</p>
+        </div>
+    </div>
+</body>
+</html>
