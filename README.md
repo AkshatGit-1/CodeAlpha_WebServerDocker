@@ -29,7 +29,6 @@ docker stop my-web-container && docker rm my-web-container && docker rmi my-web-
 
 ### See the Activity
 docker logs my-web-container
-docker exec -it bash       → Andar jao
 
 ### Check the status
 docker stats my-web-container
